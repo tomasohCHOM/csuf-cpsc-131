@@ -1,0 +1,227 @@
+My Grocery List
+    0:  "", "", "eggs", 0
+
+    1:  "", "", "milk", 0
+
+    2:  "", "", "hot dogs", 0
+
+    3:  "", "", "bread", 0
+
+
+My roommate's Grocery List
+    0:  "", "Ruffles", "potato chips", 0
+
+    1:  "", "Frito Lays", "potato chips", 0
+
+    2:  "", "Bud Lite", "beer", 0
+
+    3:  "", "", "eggs", 0
+
+    4:  "", "", "pretzels", 0
+
+
+Combined Grocery Lists
+    0:  "", "", "eggs", 0
+
+    1:  "", "", "milk", 0
+
+    2:  "", "", "hot dogs", 0
+
+    3:  "", "Lakes 'Ole", "butter", 0
+
+    4:  "", "", "bread", 0
+
+    5:  "", "", "bananas", 0
+
+    6:  "", "", "apples", 0
+
+    7:  "", "Ruffles", "potato chips", 0
+
+    8:  "", "Frito Lays", "potato chips", 0
+
+    9:  "", "", "pretzels", 0
+
+
+
+Expected results:
+    0:  "", "", "eggs", 0
+
+    1:  "", "", "milk", 0
+
+    2:  "", "", "hot dogs", 0
+
+    3:  "", "Lakes 'Ole", "butter", 0
+
+    4:  "", "", "bread", 0
+
+    5:  "", "", "bananas", 0
+
+    6:  "", "", "apples", 0
+
+    7:  "", "Ruffles", "potato chips", 0
+
+    8:  "", "Frito Lays", "potato chips", 0
+
+    9:  "", "", "pretzels", 0
+
+
+
+Actual results:  
+    0:  "", "", "eggs", 0
+
+    1:  "", "", "milk", 0
+
+    2:  "", "", "hot dogs", 0
+
+    3:  "", "Lakes 'Ole", "butter", 0
+
+    4:  "", "", "bread", 0
+
+    5:  "", "", "bananas", 0
+
+    6:  "", "", "apples", 0
+
+    7:  "", "Ruffles", "potato chips", 0
+
+    8:  "", "Frito Lays", "potato chips", 0
+
+    9:  "", "", "pretzels", 0
+
+
+
+Test results:    PASS
+My extended family is coming home, and I need to greet them with an awesome meal. I am thinking of preparing an Argentinian-style barbecue, so I naturally need to buy meat. Of course, I need some side dishes and sauces as well, so I take those into consideration.
+My Grocery List for Dinner:
+    0:  "", "Wild Fork", "rib-eye steak", 0
+
+    1:  "", "", "lettuce", 0
+
+    2:  "", "Wild Fork", "short ribs", 0
+
+    3:  "", "", "tomatoes", 0
+
+
+I definitely need more stuff for this meal. I'm thinking of combining this Argentinian barbecue with some Korean side dishes. Kimchi pancakes will go well with the meat. I ran out of kimchi at home, so I will grab some along with additional ingredients.
+Let's see what we got so far.
+
+My Grocery List for Dinner:
+    0:  "", "Wild Fork", "rib-eye steak", 0
+
+    1:  "", "", "lettuce", 0
+
+    2:  "", "Wild Fork", "short ribs", 0
+
+    3:  "", "", "tomatoes", 0
+
+    4:  "", "", "kimchi", 0
+
+    5:  "", "", "spring onion", 0
+
+    6:  "", "", "carrots", 0
+
+    7:  "", "", "spinach", 0
+
+
+Current size of List: 8
+
+My mom went shopping with me as well. I want to combine both of our lists into mine if they are not equal.
+Mom's Grocery List for Dinner:
+    0:  "", "", "lettuce", 0
+
+    1:  "", "", "carrots", 0
+
+    2:  "", "", "potatoes", 0
+
+    3:  "", "", "olive oil", 0
+
+    4:  "", "", "parsley", 0
+
+    5:  "", "", "kimchi", 0
+
+
+Combined Grocery List for Dinner:
+    0:  "", "Wild Fork", "rib-eye steak", 0
+
+    1:  "", "", "lettuce", 0
+
+    2:  "", "Wild Fork", "short ribs", 0
+
+    3:  "", "", "tomatoes", 0
+
+    4:  "", "", "kimchi", 0
+
+    5:  "", "", "spring onion", 0
+
+    6:  "", "", "carrots", 0
+
+    7:  "", "", "spinach", 0
+
+    8:  "", "", "potatoes", 0
+
+    9:  "", "", "olive oil", 0
+
+   10:  "", "", "parsley", 0
+
+
+Is the size of my list full now? Do I have 11 items already? Let me check.
+Current size of List: 11
+
+My Grocery List after removing some items:
+    0:  "", "Wild Fork", "rib-eye steak", 0
+
+    1:  "", "", "lettuce", 0
+
+    2:  "", "Wild Fork", "short ribs", 0
+
+    3:  "", "", "tomatoes", 0
+
+    4:  "", "", "kimchi", 0
+
+    5:  "", "", "carrots", 0
+
+    6:  "", "", "spinach", 0
+
+    7:  "", "", "olive oil", 0
+
+
+Sister's Grocery List:
+    0:  "", "General Mills", "Cinnamon Toast Crunch", 0
+
+    1:  "", "Cheetos", "Hot cheetos", 0
+
+    2:  "", "Hershey's", "chocolate", 0
+
+
+Give me a three-item grocery list that I could use for dinner (in the order of UPC code, brand name, product name, and the price - strings are enclosed with quotes and fields are separated by commas). 
+Your inputted Grocery List:
+    0:  "", "", "wine", 0
+
+    1:  "", "", "bread", 0
+
+    2:  "", "", "cheese", 0
+
+
+Final Grocery List for Dinner:
+    0:  "", "Wild Fork", "rib-eye steak", 0
+
+    1:  "", "", "lettuce", 0
+
+    2:  "", "Wild Fork", "short ribs", 0
+
+    3:  "", "", "tomatoes", 0
+
+    4:  "", "", "kimchi", 0
+
+    5:  "", "", "carrots", 0
+
+    6:  "", "", "spinach", 0
+
+    7:  "", "", "olive oil", 0
+
+    8:  "", "", "wine", 0
+
+    9:  "", "", "bread", 0
+
+   10:  "", "", "cheese", 0
+
+
